@@ -1,0 +1,72 @@
+.parent {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px 30px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #00f1ff,
+    #00f4fd,
+    #00f7fb,
+    #00f9f8,
+    #00fcf5,
+    #00fded,
+    #00fee3,
+    #00ffd9,
+    #00ffc1,
+    #00ffa3,
+    #00ff7e,
+    #00ff50
+  );
+}
+
+input,
+label {
+  display: block;
+  text-align: center;
+  margin: 5px;
+  font-family: monospace;
+  width: 100%;
+}
+
+input {
+  border: 0px;
+  border-radius: 5px;
+  height: 30px;
+  font-weight: bold;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+label{
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+.error{
+    color: red;
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.submitButton{
+    background-color: rgb(171, 171, 0);
+    color: white;
+    font-size: x-large;
+    margin-top: 20px;
+    }
+
+.message{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: center;
+}
