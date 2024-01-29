@@ -1,12 +1,6 @@
-body {
-  margin: 0;
+body{
   display: flex;
-  place-items: center;
   justify-content: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: #EEEDEB;
+  align-items: center;
+  padding: auto;
 }
-
-
-

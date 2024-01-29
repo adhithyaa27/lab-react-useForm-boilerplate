@@ -18,12 +18,12 @@ const Forms = () => {
         <form onSubmit={handleSubmit(handleSubmitForm)} className="form">
           <div className="message">
             {isSubmitSuccessful && (
-              <p>Registration completed Successfully</p>
+              <p>REGISTRATION COMPLETED SUCCESSFULLY</p>
             )}
           </div>
           <div className="inputContainer">
             <label htmlFor="firstName" >
-              Enter your first name
+              Your First Name
             </label>
             <input
               type="text"
@@ -38,7 +38,7 @@ const Forms = () => {
 
           <div className="inputContainer">
             <label htmlFor="lastName" >
-              Enter your last name
+              Your Last Name
             </label>
             <input
               type="text"
@@ -55,7 +55,7 @@ const Forms = () => {
 
           <div className="inputContainer">
             <label htmlFor="email" >
-              Enter your email
+               Your Email
             </label>
             <input
               type="email"
@@ -73,8 +73,9 @@ const Forms = () => {
           </div>
 
           <div className="inputContainer">
+
             <label htmlFor="password" >
-              Enter Your password
+               Your Password
             </label>
             <input
               type="password"
@@ -92,7 +93,7 @@ const Forms = () => {
               <p className="error">{errors.password.message}</p>
             )}
           </div>
-          <input type="submit" value={"Register"} className="submitButton" />
+          <input type="submit" value={"REGISTER"} className="submitButton" />
         </form>
       </div>
     </>
